@@ -38,7 +38,7 @@ alpine-conntrack:
         component_descriptor:
           ocm_repository: europe-docker.pkg.dev/gardener-project/releases
         release:
-          nextversion: 'bump_minor'
+          nextversion: 'bump_patch'
         slack:
           default_channel: 'internal_scp_workspace'
           channel_cfgs:
