@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine:3.18.4
+FROM alpine:3.19.0
 
 RUN apk add --update conntrack-tools && \
     rm -rf /var/cache/apk/*
