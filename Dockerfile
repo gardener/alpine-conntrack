@@ -3,6 +3,6 @@
 # SPDX-License-Identifier: Apache-2.0
 
 
-FROM alpine:3.20.2
+FROM alpine:3.20.3
 
 RUN apk add --update --no-cache conntrack-tools
