@@ -1,0 +1,13 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+aliases:
+  alpine-conntrack-reviewers:
+  - axel7born
+  - DockToFuture
+  - domdom82
+  - ScheererJ
+  alpine-conntrack-approvers:
+  - axel7born
+  - DockToFuture
+  - domdom82
+  - ScheererJ
