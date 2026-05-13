@@ -1,7 +1,0 @@
-version: 2
-updates:
-# Create PRs for alpine version updates
-- package-ecosystem: docker
-  directory: /
-  schedule:
-    interval: daily
