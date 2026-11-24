@@ -12,7 +12,7 @@ on:
 
 jobs:
   prepare:
-    uses: gardener/cc-utils/.github/workflows/prepare.yaml@v1
+    uses: gardener/cc-utils/.github/workflows/prepare.yaml@bce63f62928717a11f610ec8022af9feb497d5df # v1
     with:
       mode: ${{ inputs.mode }}
     permissions:
@@ -27,7 +27,7 @@ jobs:
       packages: write
       id-token: write
     secrets: inherit
-    uses: gardener/cc-utils/.github/workflows/oci-ocm.yaml@v1
+    uses: gardener/cc-utils/.github/workflows/oci-ocm.yaml@bce63f62928717a11f610ec8022af9feb497d5df # v1
     strategy:
       matrix:
         args:
